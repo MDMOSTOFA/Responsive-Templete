@@ -1,0 +1,239 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #bg_vdse p {
+        font-size: 18px;
+    }
+    #bg_vdse p span {
+        font-size: 34px;
+    }
+}
+
+
+/* tab + mobile + any responisve common -*/
+
+@media only screen and (max-width: 767px) {
+    /************** Mobile nav design *************/
+    .nav_design .collapse ul li a.active {
+        background-color: #353047;
+        color: #eee;
+        border-radius: 0;
+    }
+    .nav_design .collapse ul li {
+        padding: 0;
+    }
+    .nav_design .collapse ul li a {
+        padding: 10px 30px;
+        color: #e2e2e2;
+    }
+    .nav_design .open li.menu_ico {
+        display: inline-block !important;
+    }
+    .navbar-default {
+        background-color: transparent;
+        border-bottom: none;
+        position: absolute;
+        top: 0;
+        z-index: 9999999;
+        right: 0;
+        width: 100%;
+    }
+    .img_logo {
+        padding: 10px 0px 0px 20px;
+    }
+    .nav_design .container .navbar-header {
+        background-color: #fff;
+    }
+    .nav_design .container .navbar-collapse {
+        padding: 0;
+        width: 0px;
+        margin-top: 0px;
+        border-top: none;
+        margin-right: 0;
+        transition: width 0.6s ease-out;
+        display: block;
+        position: absolute;
+        right: 0px;
+    }
+    .collapse .mobile_nav li {
+        display: none;
+        border-bottom: 1px solid #353047;
+    }
+    .collapse.open .mobile_nav li {
+        display: block;
+    }
+    .nav_design .collapse ul li:nth-child(7) a {
+        padding: 0;
+    }
+    .nav_design li.menu_ico {
+        display: none !important;
+        border-bottom: none;
+    }
+    .nav_design .container .collapse.open {
+        width: 250px;
+        margin-top: -50px;
+        right: 0px;
+    }
+    .mobile_nav {
+        width: 100%;
+        text-align: right;
+        padding: 15px 0 40px 0;
+        margin: 0;
+        max-width: 250px;
+        background: rgba(95, 82, 100, 1);
+        background: -moz-linear-gradient(-45deg, rgba(95, 82, 100, 1) 0%, rgba(85, 71, 90, 1) 33%, rgba(50, 55, 93, 1) 71%, rgba(50, 55, 93, 1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(95, 82, 100, 1)), color-stop(33%, rgba(85, 71, 90, 1)), color-stop(71%, rgba(50, 55, 93, 1)), color-stop(100%, rgba(50, 55, 93, 1)));
+        background: -webkit-linear-gradient(-45deg, rgba(95, 82, 100, 1) 0%, rgba(85, 71, 90, 1) 33%, rgba(50, 55, 93, 1) 71%, rgba(50, 55, 93, 1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(95, 82, 100, 1) 0%, rgba(85, 71, 90, 1) 33%, rgba(50, 55, 93, 1) 71%, rgba(50, 55, 93, 1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(95, 82, 100, 1) 0%, rgba(85, 71, 90, 1) 33%, rgba(50, 55, 93, 1) 71%, rgba(50, 55, 93, 1) 100%);
+        background: linear-gradient(135deg, rgba(95, 82, 100, 1) 0%, rgba(85, 71, 90, 1) 33%, rgba(50, 55, 93, 1) 71%, rgba(50, 55, 93, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5f5264', endColorstr='#32375d', GradientType=1);
+    }
+    .collapse.in,
+    .collapsing {
+        display: none;
+    }
+    .mrg_5 {
+        margin-right: 0;
+    }
+    .toggletag button.clickme {
+        margin-right: 25px;
+        transition: all 0.8s ease-out;
+        transition-delay: 0.22s;
+    }
+    .toggletag.open button.clickme {
+        margin-right: 267px;
+    }
+    /************** Mobile nav design End *************/
+    .slider_custom_CSS .carousel-caption h1 {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .carousel-control svg {
+        width: 31px;
+        height: 36px;
+    }
+    #frexy_studio .content {
+        padding-bottom: 5%;
+    }
+    .bg {
+        padding-bottom: 2%;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px !important;
+    }
+    .protfolio-catagory ul li {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .back_2 div:nth-of-type(2) p:after {
+        display: none !important;
+    }
+    /**video section **/
+    #bg_vdse h3:before {
+        margin: -7px 0 0 -87px;
+    }
+    #bg_vdse p {
+        font-size: 16px;
+    }
+    #bg_vdse p span {
+        font-size: 30px;
+    }
+    #bg_vdse p {
+        padding: 5% 0px;
+    }
+    #bg_vdse p:after {
+        margin-top: 30px;
+    }
+    .pricing_table {
+        padding: 0 5%;
+    }
+    .our_team {
+        margin-top: 25px;
+    }
+    #map form .form-group {
+        margin: 0 5% 0 5% !important;
+    }
+    #map label {
+        margin-top: 3%;
+    }
+    #map label.checkbox_1 {
+        margin-top: -12px;
+    }
+    #map button {
+        width: 90%;
+        margin: 5% !important;
+    }
+    #map img.media-object {
+        padding: 20px 15px 20px 15px;
+        max-height: 360px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 480px) {
+    .toggletag img {
+        display: block;
+    }
+    .toggletag.open img {
+        display: none;
+    }
+    .col-xx-12 {
+        width: 100%;
+    }
+    .hidden-xx {
+        display: none;
+    }
+    .slider_custom_CSS .carousel-caption {
+        top: 25%;
+    }
+    h1 {
+        font-size: 24px;
+        padding-top: 4%;
+    }
+    h2 {
+        font-size: 20px;
+        letter-spacing: 1px !important;
+    }
+    h3 {
+        font-size: 16px;
+        letter-spacing: 0px !important;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    ul.star li {
+        margin: 4px 2px 2% 2px;
+    }
+    .back_1 {
+        padding: 10% 5%;
+    }
+    #social_slider .carousel-caption {
+        padding: 15% 2%;
+    }
+    #social_slider .carousel-caption p {
+        font-size: 14px;
+    }
+    #bg_vdse h3:before,
+    #bg_vdse h3:after {
+        display: none;
+    }
+    #bg_vdse p {
+        font-size: 14px;
+    }
+}
