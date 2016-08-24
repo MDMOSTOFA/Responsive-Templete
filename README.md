@@ -1,2 +1,2 @@
 # Responsive-Templete
-# here you can see live preview <a href="http://clients.leexor.com/mostofa_p/">Live</a>
+# Click the link for live view <a href="http://clients.leexor.com/mostofa_p/">Live Link</a>
