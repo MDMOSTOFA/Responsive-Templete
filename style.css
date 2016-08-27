@@ -58,6 +58,12 @@ h1 {
     color: #f5f5f5;
 }
 
+.nav_design .collapse ul li a.active:hover,
+.nav_design .collapse ul li a.active:focus {
+    background-color: #e36228;
+    color: #f5f5f5;
+}
+
 .nav_design .collapse ul li a:hover,
 .nav_design .collapse ul li a:focus {
     color: #e36228;
